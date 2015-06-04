@@ -1,0 +1,485 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.header2 {
+	text-align: center;
+	max-width: 100%;
+	background-size: 100%;
+	margin: 0px auto;
+	background-color:#F8F8F8 ;
+	font-family: copperplate;
+	padding: 50px;
+	font-size: 72px;
+
+}
+
+.header {
+	text-align: center;
+	font-family: Arial;
+	margin-right: 200px;
+	background-color: #FAF0E6;
+	min-width: 100%;
+
+}
+
+.header ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 100px;
+}
+
+.sidebar {
+	clear: both;
+	display: inline-block;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	height: 1000px;
+	float: left;
+	background-color: #FAF0E6;
+}
+
+.right_sidebar {
+	
+	display: inline;
+	margin-right: 100px;
+	margin-top: 100px;
+	margin-bottom: 55px;
+	height: 1000px;
+	float: right;
+	background-color: #FAF0E6;
+	margin: 100px auto;
+	padding-bottom: 55px;
+
+}
+.right_sidebar img {
+	margin-bottom: 55px;
+	padding-bottom: 55px;
+}
+
+body{
+	background-color: #FFFACD;
+
+
+;
+}
+
+header{
+	text-align: center;
+	font-size: 17px;
+	padding-bottom: 10px;
+}
+
+a{
+	color: white;
+}
+
+.main ul{
+	list-style-type: none;
+	padding-left: 0;
+	padding-right: 0;
+	
+	font-size: 17px;
+}
+
+.main li{
+	list-style-type: none;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.main {
+	font-family: Futura, sans-serif;
+	margin-bottom: 0px;
+	background-color: #F8F8F8;
+
+	 -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 80px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 80px; /* Firefox */
+    column-gap: 80px;
+	
+}
+
+
+
+.footer2 {
+	padding: 100px;
+	background-color: #FFCC99;
+	font-family: Futura, sans-serif;
+}
+
+.footer2 nav ul li {
+	padding: 100px;
+	font-family: Futura, sans-serif;
+	display: inline;
+	font-size: 15px;
+}
+
+
+
+.profile1 {
+	background-color: white;
+	padding: 100px;
+	margin: 15px;
+	float: left;
+	margin-bottom: 50px;
+		
+
+}
+
+.profile2 {
+	background-image: url("file:///Users/amandacross/Documents/wdi/mandy_m/IMG_1078.jpg");
+	background-color: white;
+	background-size: 100%;
+	background-position: center;
+	border-radius: 100px;
+	background-repeat: no-repeat;
+	padding: 100px;
+	margin: 15px;
+	margin-left: 150px;
+	float: left;
+	margin-bottom: 50px;
+
+	
+}
+
+.profile3 {
+	background-color: white;
+	padding: 100px;
+	margin: 15px;
+	margin-left: 200px;
+	margin-bottom: 50px;
+
+	float: left;
+	
+}
+
+.followers {
+	clear: both;
+	
+	margin: 80px;
+}
+
+
+
+.javier1 img {
+	width: 100px;
+	border-style: solid;
+	margin-left: 50px;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	padding: 15px;
+	float: left;
+	
+	
+	display: inline-block;
+}
+
+.javier2 img {
+	width: 100px;
+	border-style: solid;
+	margin-left: 5px;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	padding: 7px;
+	float: left;
+	display: inline-block;
+}
+
+
+.javier3 img {
+	width: 150px;
+	clear: both;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 55px;
+	margin-top: 5px;
+	border-color: #D3D3D3;
+	padding: 7px;
+	float: left;
+	display: inline-block;
+}
+
+
+.javier4 img {
+	width: 150px;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 5px;
+	border-color: #D3D3D3;
+	padding: 25px;
+	float: left;
+	display: inline;
+}
+
+
+.javier5 img {
+	width: 150px;
+	padding: 35px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	float: left;
+	margin-left: 40px;
+}
+
+
+.javier6 img {
+	width: 100px;
+	
+	border-style: solid;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	padding: 7px;
+	
+	margin-left: 10px;
+	float: left;
+
+	
+}
+
+.col1 img{
+	margin-top: 50px;
+	padding-top: 50px;
+	margin: 3px;
+	margin-left: 0px;
+	width: 100px;
+	background-color: white;
+
+}
+
+.col2 img {
+	margin-top: 50px;
+	padding-top: 50px;
+	margin: 3px;
+	display: inline;
+	width: 100px;
+	background-color: white;
+	
+
+}
+
+.col3 img {
+	margin-top: 50px;
+	padding-top: 50px;
+	margin: 3px;
+	display: inline;
+	width: 100px;
+	background-color: white;
+	float: left;
+
+}
+
+
+.mandy1 img {
+
+	clear: both;
+	width: 150px;
+	border-style: solid;
+	margin-left: 0px;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	padding: 15px;
+	float: left;
+	display: inline-block;
+
+
+	
+	
+	display: inline;
+}
+
+.mandy2 img {
+	width: 175px;
+	border-style: solid;
+	margin-left: 5px;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	padding: 7px;
+	display: inline-block;
+	float: left;
+}
+
+
+.mandy3 img {
+	width: 100px;
+	border-style: solid;
+	display: inline-block;
+	border-width: 3px;
+	margin-left: 0px;
+	margin-top: 5px;
+	border-color: #D3D3D3;
+	padding: 7px;
+	
+	float: left;
+}
+
+
+.mandy4 img {
+	width: 100px;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 10px;
+	border-color: #D3D3D3;
+	padding: 15px;
+	display: block;
+	float: left;
+	
+}
+
+
+.mandy5 img {
+	width: 100px;
+	display: inline;
+	padding: 15px;
+	
+	border-style: solid;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	float: left;
+	margin-left: 40px;
+}
+
+
+.mandy6 img {
+	width: 100px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	padding: 7px;
+	
+	margin-left: 10px;
+	float: left;
+	display: inline;
+	
+	height: 100px;
+}
+
+
+
+
+.jerome1 img {
+
+	float: left;
+
+	width: 150px;
+	border-style: solid;
+	margin-left: 50px;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	padding: 15px;	
+	display: inline;
+}
+
+.jerome2 img {
+	width: 150px;
+	border-style: solid;
+	margin-left: 5px;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	padding: 7px;
+	display: inline;
+	float: left;
+}
+
+
+.jerome3 img {
+	width: 150px;
+	border-style: solid;
+	display: inline;
+	border-width: 3px;
+	margin-left: 55px;
+	margin-top: 5px;
+	border-color: #D3D3D3;
+	padding: 7px;
+	float: left;
+}
+
+
+.jerome4 img {
+	width: 150px;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 5px;
+	border-color: #D3D3D3;
+	padding: 25px;
+	display: inline;
+	float: left;
+}
+
+
+.jerome5 img {
+	width: 100px;
+	display: inline;
+	padding: 35px;
+	
+	border-style: solid;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	float: left;
+	margin-left: 40px;
+}
+
+
+.jerome6 img {
+	width: 100px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	padding: 7px;
+	margin-left: 10px;
+	float: left;
+	display: inline;
+}
+
+.logos {
+	opacity: 0.5;
+	font-size: 72px;
+    font-family: Papyrus;
+    background-color: black;
+    background-image: url("file:///Users/amandacross/Documents/wdi/mandy_m/flan.jpg");
+    padding-bottom: 200px;
+    background-size: 100%;
+    margin-bottom: 300px
+
+
+}
+
+.logo1 {
+	width: 200px;
+	float: left;
+	margin-left: 100px;
+	padding: 100px;
+}
+
+.logo2 {
+	clear: both;
+	margin-right: 1000px;
+
+	margin-left: 500px;
+}
+
+.logo3 {
+	clear: both;
+	float: left;
+	margin-top: 100px;
+	margin-left: 900px;
+	margin-right: 300px;
