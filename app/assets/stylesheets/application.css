@@ -14,14 +14,18 @@
  *= require_self
  */
 
+/*ATTN: AMANDA JEROME REMEMBER TO RESIZE IMAGES FOR HOMEPAGE*/
+
 .header2 {
 	text-align: center;
 	max-width: 100%;
 	background-size: 100%;
 	margin: 0px auto;
-	background-color:#F8F8F8 ;
+	background-color:#F8F8F8;
 	font-family: copperplate;
-	padding: 50px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 50px;
 	font-size: 72px;
 
 }
@@ -29,17 +33,21 @@
 .header {
 	text-align: center;
 	font-family: Arial;
-	margin-right: 200px;
 	background-color: #FAF0E6;
 	min-width: 100%;
+	color: #FFFACD;
 
 }
 
 .header ul li {
 	list-style-type: none;
 	display: inline;
-	padding: 100px;
-}
+	text-align: left;
+	font-size: 20px;
+	padding: 30px;
+
+
+}/*
 
 .sidebar {
 	clear: both;
@@ -68,7 +76,7 @@
 .right_sidebar img {
 	margin-bottom: 55px;
 	padding-bottom: 55px;
-}
+}*/
 
 body{
 	background-color: #FFFACD;
@@ -78,16 +86,16 @@ body{
 }
 
 header{
-	text-align: center;
+	
 	font-size: 17px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
-a{
+/*a{
 	color: white;
-}
+}*/
 
-.main ul{
+/*.main ul{
 	list-style-type: none;
 	padding-left: 0;
 	padding-right: 0;
@@ -99,6 +107,7 @@ a{
 	list-style-type: none;
 	margin: 0;
 }
+*/
 h1 {
 	text-align: center;
 	margin-bottom: 20px;
@@ -106,8 +115,9 @@ h1 {
 
 .main {
 	font-family: Futura, sans-serif;
-	margin-bottom: 0px;
+	margin-bottom: 100px;
 	background-color: #F8F8F8;
+	
 
 	 -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
@@ -119,44 +129,44 @@ h1 {
 }
 
 
-
+/*
 .footer2 {
-	padding: 100px;
+	clear: both;
 	background-color: #FFCC99;
 	font-family: Futura, sans-serif;
 }
 
 .footer2 nav ul li {
-	padding: 100px;
+	clear: both;
 	font-family: Futura, sans-serif;
 	display: inline;
 	font-size: 15px;
 }
-
+*/
 
 
 .profile1 {
 	background-color: white;
 	padding: 100px;
-	margin: 15px;
+	margin: 5px;
 	float: left;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 		
 
 }
 
 .profile2 {
-	background-image: url("file:///Users/amandacross/Documents/wdi/mandy_m/IMG_1078.jpg");
+	background-image: url("IMG_1078.jpg");
 	background-color: white;
 	background-size: 100%;
 	background-position: center;
 	border-radius: 100px;
 	background-repeat: no-repeat;
 	padding: 100px;
-	margin: 15px;
-	margin-left: 150px;
+	margin: 5px;
+	margin-left: 200px;
 	float: left;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 
 	
 }
@@ -164,9 +174,9 @@ h1 {
 .profile3 {
 	background-color: white;
 	padding: 100px;
-	margin: 15px;
-	margin-left: 200px;
-	margin-bottom: 50px;
+	margin: 5px;
+	margin-left: 275px;
+	margin-bottom: 80px;
 
 	float: left;
 	
@@ -181,41 +191,38 @@ h1 {
 
 
 .javier1 img {
-	width: 100px;
+	width: 150px;
 	border-style: solid;
-	margin-left: 50px;
+	
 	border-width: 3px;
 	border-color: #D3D3D3;
-	padding: 15px;
+	width: 100%;
+	height: 100%;
 	float: left;
-	
-	
-	display: inline-block;
+	display: inline;
 }
 
 .javier2 img {
-	width: 100px;
+	width: 150px;
 	border-style: solid;
-	margin-left: 5px;
 	border-width: 3px;
 	border-color: #D3D3D3;
-	padding: 7px;
+	width: 100%;
+	height: 100%;
 	float: left;
-	display: inline-block;
+	display: inline;
 }
-
 
 .javier3 img {
 	width: 150px;
 	clear: both;
 	border-style: solid;
 	border-width: 3px;
-	margin-left: 55px;
+
 	margin-top: 5px;
 	border-color: #D3D3D3;
-	padding: 7px;
 	float: left;
-	display: inline-block;
+	display: inline;
 }
 
 
@@ -223,9 +230,8 @@ h1 {
 	width: 150px;
 	border-style: solid;
 	border-width: 3px;
-	margin-left: 5px;
+
 	border-color: #D3D3D3;
-	padding: 25px;
 	float: left;
 	display: inline;
 }
@@ -233,235 +239,224 @@ h1 {
 
 .javier5 img {
 	width: 150px;
-	padding: 35px;
 	border-style: solid;
 	border-width: 3px;
 	border-color: #D3D3D3;
 	float: left;
-	margin-left: 40px;
+	display: inline;
 }
 
 
 .javier6 img {
-	width: 100px;
+	width: 150px;
 	
 	border-style: solid;
 	border-width: 3px;
 	border-color: #D3D3D3;
-	padding: 7px;
-	
-	margin-left: 10px;
 	float: left;
+	display: inline;
 
 	
 }
 
-.col1 img{
-	margin-top: 50px;
-	padding-top: 50px;
-	margin: 3px;
-	margin-left: 0px;
-	width: 100px;
-	background-color: white;
 
-}
-
-.col2 img {
-	margin-top: 50px;
-	padding-top: 50px;
-	margin: 3px;
-	display: inline;
-	width: 100px;
-	background-color: white;
-	
-
-}
-
-.col3 img {
-	margin-top: 50px;
-	padding-top: 50px;
-	margin: 3px;
-	display: inline;
-	width: 100px;
-	background-color: white;
-	float: left;
-
-}
 
 
 .mandy1 img {
 
-	clear: both;
-	width: 150px;
 	border-style: solid;
-	margin-left: 0px;
 	border-width: 3px;
 	border-color: #D3D3D3;
-	padding: 15px;
 	float: left;
-	display: inline-block;
-
-
-	
-	
 	display: inline;
 }
 
 .mandy2 img {
-	width: 175px;
 	border-style: solid;
-	margin-left: 5px;
 	border-width: 3px;
 	border-color: #D3D3D3;
-	padding: 7px;
-	display: inline-block;
+	display: inline;
 	float: left;
 }
 
 
 .mandy3 img {
-	width: 100px;
 	border-style: solid;
-	display: inline-block;
+	display: inline;
 	border-width: 3px;
-	margin-left: 0px;
-	margin-top: 5px;
 	border-color: #D3D3D3;
-	padding: 7px;
 	
 	float: left;
 }
 
-
+/*
 .mandy4 img {
-	width: 100px;
 	border-style: solid;
 	border-width: 3px;
-	margin-left: 10px;
 	border-color: #D3D3D3;
-	padding: 15px;
-	display: block;
+	display: inline;
 	float: left;
 	
+}*/
+
+
+.mandy4 img {
+	border-style: solid;
+	display: inline;
+	border-width: 3px;
+	border-color: #D3D3D3;
+	
+	float: left;
 }
 
 
 .mandy5 img {
-	width: 100px;
 	display: inline;
-	padding: 15px;
-	
 	border-style: solid;
 	border-width: 3px;
 	border-color: #D3D3D3;
 	float: left;
-	margin-left: 40px;
+
 }
 
 
 .mandy6 img {
-	width: 100px;
 	border-style: solid;
 	border-width: 3px;
 	border-color: #D3D3D3;
-	padding: 7px;
-	
-	margin-left: 10px;
 	float: left;
 	display: inline;
 	
-	height: 100px;
+	
 }
 
 
 
 
 .jerome1 img {
-
+	
 	float: left;
-
-	width: 150px;
 	border-style: solid;
-	margin-left: 50px;
 	border-width: 3px;
 	border-color: #D3D3D3;
-	padding: 15px;	
 	display: inline;
 }
 
 .jerome2 img {
-	width: 150px;
 	border-style: solid;
-	margin-left: 5px;
 	border-width: 3px;
 	border-color: #D3D3D3;
-	padding: 7px;
 	display: inline;
 	float: left;
 }
 
 
 .jerome3 img {
-	width: 150px;
 	border-style: solid;
 	display: inline;
 	border-width: 3px;
-	margin-left: 55px;
-	margin-top: 5px;
 	border-color: #D3D3D3;
-	padding: 7px;
 	float: left;
 }
 
 
 .jerome4 img {
-	width: 150px;
 	border-style: solid;
 	border-width: 3px;
-	margin-left: 5px;
 	border-color: #D3D3D3;
-	padding: 25px;
 	display: inline;
 	float: left;
 }
 
 
-.jerome5 img {
-	width: 100px;
+.jerome5 img {	
 	display: inline;
-	padding: 35px;
-	
 	border-style: solid;
 	border-width: 3px;
 	border-color: #D3D3D3;
 	float: left;
-	margin-left: 40px;
 }
 
 
 .jerome6 img {
-	width: 100px;
 	border-style: solid;
 	border-width: 3px;
 	border-color: #D3D3D3;
-	padding: 7px;
-	margin-left: 10px;
 	float: left;
 	display: inline;
 }
 
 .logos {
-	opacity: 0.5;
+	opacity: .5;
 	font-size: 72px;
     font-family: Papyrus;
     background-color: black;
-    background-image: url("file:///Users/amandacross/Documents/wdi/mandy_m/flan.jpg");
+    background-image: url("flan.jpg");
     padding-bottom: 200px;
-    background-size: 100%;
-    margin-bottom: 300px
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 300px;
 
 
 }
+
+
+.col1 img{
+	margin-top: 50px;
+
+	margin: 5px;
+	
+	display: inline;
+	width: 140px;
+	height: 100px;
+	background-color: white;
+	 -webkit-column-width: 250px; /* Chrome, Safari, Opera */
+    -moz-column-width: 250px; /* Firefox */
+    column-width: 250px;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
+
+}
+
+.col2 img {
+	margin-top: 50px;
+	height: 100px;
+	display: inline;
+	margin: 5px;
+	width: 140px;
+	background-color: white;
+	 -webkit-column-width: 250px; /* Chrome, Safari, Opera */
+    -moz-column-width: 250px; /* Firefox */
+    column-width: 250px;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
+	
+
+}
+
+.col3 img {
+	margin-top: 50px;
+	
+	margin: 5px;
+	display: inline;
+	height: 100px;
+	width: 140px;
+	background-color: white;
+	 -webkit-column-width: 250px; /* Chrome, Safari, Opera */
+    -moz-column-width: 250px; /* Firefox */
+    column-width: 250px;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
+
+}
+
+
 
 .logo1 {
 	width: 200px;
@@ -483,3 +478,10 @@ h1 {
 	margin-top: 100px;
 	margin-left: 900px;
 	margin-right: 300px;
+}
+
+a {
+	color: grey;
+	text-align: auto;
+
+}

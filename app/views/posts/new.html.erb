@@ -1,2 +1,42 @@
-<h1>Posts#new</h1>
-<p>Find me in app/views/posts/new.html.erb</p>
+<%= form_for @post, :html => { :multipart => true } do |form| %>
+ 
+	
+	
+	<p>
+	  <%=f.label :title, "Enter Your Recipe Title Here" %>
+	  <%=f.text_field :title %>
+	</p>
+
+
+	<p>
+	  <%=f.label :recipe, "Enter Your Recipe Here" %>
+	  <%=f.text_field :recipe %>
+	</p>
+
+
+	<p>
+	<%= f.file_field :avatar %> 
+	</p>
+
+
+	<p>
+	  <%=f.submit :create %>
+	</p>
+
+	</div>
+
+
+
+
+	<% end %>
+
+
+
+	<%= link_to 'Home', root_path %> 
+
+	</body>
+</html>
+
+
+
+<% end %>

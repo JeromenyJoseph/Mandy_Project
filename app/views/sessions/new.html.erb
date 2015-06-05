@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+	<html>
+	<head>
+		<title>Sign-in Page</title>
+	</head>
+
+	<body>
+	<header>	
+		<h1>Sign in Below!</h1>
+	</header>
+
+	<div class="login">
+	
+	<%= form_tag("/sessions", method: :post) do |f| %>
+	
+	<p>
+ 	<%= label_tag(:username, "Username") %>
+      <%= text_field_tag(:username) %>
+      
+
+	
+
+	<p>
+	  <%= label_tag(:password, "Password") %>
+	  <%= password_field_tag(:password) %>
+	</p>
+
+	<p>
+	  <%= label_tag(:email, "Email") %>
+	  <%= email_field_tag(:email) %>
+	</p>
+
+
+    <p>
+      <%= submit_tag("Submit") %>
+    </p>
+
+
+	</div>
+
+	<% end %>
+
+
+	<%= link_to 'Home', root_path %> 
+
+	</body>
+</html>

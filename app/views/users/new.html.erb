@@ -1,2 +1,71 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign-up!</title>
+	</head>
+
+	<body>
+	<div class="form"
+	<header>	
+		<h1>Sign up Below!</h1>
+	</header>
+</div>
+
+	<div class="sign_up">
+	
+	
+	<%= form_for @user, :html => { :multipart => true } do |f| %>
+	
+	<p>
+	  <%=f.label :username %>
+	  <%=f.text_field :username %>
+	</p>
+
+	<p>
+	  <%=f.label :password %>
+	  <%=f.password_field :password %>
+	</p>
+
+	<p>
+	  <%=f.label :fname %>
+	  <%=f.text_field :fname %>
+	</p>
+
+	<p>
+	  <%=f.label :lname %>
+	  <%=f.text_field :lname %>
+	</p>
+
+	<p>
+	  <%=f.label :email %>
+	  <%=f.email_field :email %>
+	</p>
+
+	<p>
+	  <%=f.label :birthday %>
+	  <%=f.date_field :birthday %>
+	</p>
+
+
+	<p>
+	<%= f.file_field :avatar %> 
+	</p>
+
+
+	<p>
+	  <%=f.submit :create %>
+	</p>
+
+	</div>
+
+
+
+
+	<% end %>
+
+
+
+	<%= link_to 'Home', root_path %> 
+
+	</body>
+</html>

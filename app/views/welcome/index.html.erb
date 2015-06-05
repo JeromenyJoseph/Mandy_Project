@@ -4,23 +4,21 @@
 		<title>
 	 		My Food Blog
 		</title>
-		<link rel="stylesheet" type="text/css" href="home.css">
 	</head>
 
 	<body>
 
 	<div class="header2">
-		Mandy's
+		Battle of the Boroughs
 	</div>
 
 	<div class="header">
 		<header><br>
 			<nav>
 				<ul>
-					<li>Home</li>
-					<li>About</li>
-					<li>Contact</li>
-					<li>Competition</li>
+					<li><%= link_to 'Home', root_path %><li>
+					<li><%= link_to 'Create an Account', new_user_path %></li>
+					<li><%= link_to 'Log in', new_session_path %></li>
 				</ul>
 			</nav>
 		</header>
@@ -28,137 +26,134 @@
 
 	<div class="logos">
 
-	<div class="logo1">
-		Cook 
-	</div>
+		<div class="logo1">
+			Cook 
+		</div>
 
-	<div class="logo2">
-		Create
-	</div>
+		<div class="logo2">
+			Create
+		</div>
 
-	
-	<div class="logo3">
-		Share
-	</div>
+		
+		<div class="logo3">
+			Share
+		</div>
 
 	</div>
 		
 		<div class="header2">
 
 				
-		<div class="followers">
+			<div class="followers">
 
-			<div class="profile1">
+				<div class="profile1">
+					
+				</div>
 				
-			</div>
-			
 
-			<div class="profile2">
+				<div class="profile2">
+					
+				</div>
 				
-			</div>
-			
-			
-			<div class="profile3">
-			
+				
+				<div class="profile3">
+				
+				</div>
+
 			</div>
 
-		</div>
 
 <div class="main">
 
 	<div class="col1">
 
-		<div class="javier1">
-			<img src="file:///Users/amandacross/Documents/wdi/mandy_m/flan.jpg">
-		</div>
+				<div class="javier1">
+				<img src="<%= asset_path ( 'flan.jpg' ) %>"/>
+				</div>
 
+				<div class="javier2">
+				<img src="<%= asset_path ( 'bacon_wrapped_shrimp.jpg' ) %>"/>
+				</div> 
 
-		<div class="javier2">
-		<img src="file:///Users/amandacross/Documents/wdi/mandy_m/sweet_potato_tostadas.jpg">
-		</div>
+				<div class="javier3">
+				<img src="<%= asset_path ( 'columbian_chicken.jpg' ) %>"/>
+				</div>
 
-		<div class="javier3">
-		<img src="file:///Users/amandacross/Documents/wdi/mandy_m/columbian_chicken.jpg">
-		</div>
+				<div class="javier4">
+					<img src="<%= asset_path ( '4379747898_bb7bd01a78.jpg' ) %>"/>
+				</div>
 
-		<div class="javier4">
-			<img src="file:///Users/amandacross/Documents/wdi/mandy_m/4379747898_bb7bd01a78.jpg">
-		</div>
+				<div class="javier5">
+				<img src="<%= asset_path ( 'brevas_calados.jpg' ) %>"/>
+				</div>
 
-		<div class="javier5">
-		<img src="brevas_calados.jpg">
-		</div>
+				<div class="javier6">
+				<img src="<%= asset_path ( 'sweet_potato_tostadas.jpg' ) %>"/>
+				</div>
 
-		<div class="javier6">
-		<img src="file:///Users/amandacross/Documents/wdi/mandy_m/bacon_wrapped_shrimp.jpg">
-		</div>
-
+				
 	</div>
 
 	<div class="col2">
-		<div class="mandy1">
-			<img src="file:///Users/amandacross/Documents/wdi/website/images/DSC_1144.JPG">
-		</div>
+				
+				<div class="mandy1"> 
+				<img src="<%= asset_path ( 'DSC_0987.JPG' ) %>"/>
+				</div>
 
-		<div class="mandy2">
-			<img src="file:///Users/amandacross/Documents/wdi/website/images/DSC_1144.JPG">
-		</div>
+				<div class="mandy2">
+				<img src="<%= asset_path ( 'DSC_1201.JPG' ) %>"/>	
+				</div>
 
-		<div class="mandy3">
-			<img src="file:///Users/amandacross/Documents/wdi/mandy_m/turkey_lettuce_wraps.jpg">
-		</div>
-
-
-		<div class="mandy4">
-			<img src="file:///Users/amandacross/Documents/wdi/mandy_m/turkey_lettuce_wraps.jpg">
-		</div>
-
-		<div class="mandy5">
-			<img src="file:///Users/amandacross/Documents/wdi/mandy_m/turkey_lettuce_wraps.jpg">
-		</div>
-
-		<div class="mandy6">
-			<img src="file:///Users/amandacross/Documents/wdi/mandy_m/turkey_lettuce_wraps.jpg">
-		</div>
+				<div class="mandy3">
+				<img src="<%= asset_path ( 'turkey_lettuce_wraps.jpg' ) %>"/>
+				</div>
 
 
+				<div class="mandy4">
+				<img src="<%= asset_path ( 'brownsburg_brownie.jpg' ) %>"/>
+				</div>
 
-</div>
+				<div class="mandy5">
+				<img src="<%= asset_path ( 'brownsburg_brownie.jpg' ) %>"/>
+				</div>
+
+				<div class="mandy6">
+				<img src="<%= asset_path ( 'brownsburg_brownie.jpg' ) %>"/>
+				</div>
+
+			
+	</div>
 
 		
 	<div class="col3">
-		<div class="jerome1">
-			<img src="images/DSC_1144.JPG" >
-		</div>
+	
+			<div class="jerome1">
+			<img src="<%= asset_path ( 'brownsburg_brownie.jpg' ) %>"/>
+			</div>
 
-		<div class="jerome2">
-			<img src="images/DSC_1144.JPG" >
-		</div>
+			<div class="jerome2">
+			<img src="<%= asset_path ( 'brownsburg_brownie.jpg' ) %>"/>
+			</div>
 
-		<div class="jerome3">
-			<img src="images/turkey_lettuce_wraps.jpg">
-		</div>
-
-
-		<div class="jerome4">
-			<img src="images/turkey_lettuce_wraps.jpg">
-		</div>
-
-		<div class="jerome5">
-			<img src="images/turkey_lettuce_wraps.jpg">
-		</div>
-
-		<div class="jerome6">
-			<img src="images/turkey_lettuce_wraps.jpg">
-		</div>
+			<div class="jerome3">
+			<img src="<%= asset_path ( 'brownsburg_brownie.jpg' ) %>"/>
+			</div>
 
 
+			<div class="jerome4">
+			<img src="<%= asset_path ( 'brownsburg_brownie.jpg' ) %>"/>
+			</div>
+
+			<div class="jerome5">
+			<img src="<%= asset_path ( 'brownsburg_brownie.jpg' ) %>"/>
+			</div>
+
+			<div class="jerome6">
+			<img src="<%= asset_path ( 'brownsburg_brownie.jpg' ) %>"/>
+			</div>
+	</div>
 
 </div>
+</div>
 
-
-
-		
-
-		</div>
 	</body>
