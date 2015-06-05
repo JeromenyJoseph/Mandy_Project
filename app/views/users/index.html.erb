@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Users Page
+		</title>
+	</head>
+
+	<body>
+
+
+	<div class="list">
+		<header>
+			<h1>Here is a list of our users:</h1>
+		</header>
+	</div>
+	<div class="users">
+	<% @user.each do |user| %>
+
+	<%= image_tag user.avatar.url(:medium) %>
+	<section>
+		<h3><%= user.username %>'s Details </h3>
+		<ul>
+			<li><%= user.fname %> <%= user.lname %></li>
+		</ul>
+	</section>  
+
+		 <%= link_to("Delete Profile", user_path(user.id), method: :delete) %>
+
+		<% end %> 
+		
+	</div>
+
+	</body>
+
+</html>

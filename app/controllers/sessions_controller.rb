@@ -14,7 +14,7 @@ class SessionsController < ApplicationController
 
 
       flash[:notice] = "You have logged in successfully"
-      redirect_to session_path(@user)
+      redirect_to user_path(@user)
   
 
     elsif @user == nil 

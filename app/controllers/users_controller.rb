@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+before_action :current_user, only: [:edit, :update, :show, :destroy]
 
   def index
     @user = User.all
@@ -38,9 +39,9 @@ class UsersController < ApplicationController
    end
 
 
-     def show
-      @user = User.all
-     end
+   def show
+    current_user
+   end
 
   # def follow
   #   @relationship = Relationship.new(follower_id: current_user.id, followed_id: params[:id])
